@@ -1,0 +1,95 @@
+.root {
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.photoContainer {
+    -fx-background-color: linear-gradient(to bottom, lightblue, white);
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-color: #b0b0b0; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 10px; /* Border radius to match background */
+}
+
+.tokimonName {
+    -fx-background-color: #ffcb05;
+    -fx-background-radius: 15px;
+    -fx-border-width: 3px;
+    -fx-border-color: #b0b0b0;
+    -fx-border-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0, 0, 2); /* Drop shadow effect */
+}
+
+.moreInfo {
+    -fx-background-color: #ffcb05;
+    -fx-background-radius: 15px;
+    -fx-border-width: 3px;
+    -fx-border-color: #b0b0b0;
+    -fx-border-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0, 0, 2); /* Drop shadow effect */
+
+
+}
+
+.button {
+    -fx-background-color: #e0e0e0; /* Light grey background */
+    -fx-background-radius: 7px; /* Rounded corners */
+    -fx-border-color: #b0b0b0; /* Grey border */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-font-family: "Arial", sans-serif; /* Font family */
+    -fx-font-size: 12px; /* Font size */
+    -fx-padding: 5px 10px; /* Padding inside the button */
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 4, 0, 0, 1); /* Drop shadow effect */
+}
+
+.button:hover{
+    -fx-background-color: #d0d0d0;
+}
+
+.button:pressed{
+    -fx-background-color: #c0c0c0; /* Even darker grey when pressed */
+    -fx-translate-y: 1px; /* Move button down on press */
+}
+
+.searchField {
+        -fx-background-color: #333333; /* Dark background color */
+        -fx-border-color: #000000; /* Black border */
+        -fx-border-width: 2px; /* Border width */
+        -fx-border-radius: 5px; /* Rounded corners */
+        -fx-text-fill: #00FF00; /* Green text color */
+        -fx-font-family: "Digital-7", monospace; /* Digital font family */
+        -fx-font-size: 10px; /* Font size */
+        -fx-padding: 2px; /* Padding inside the text field */
+        -fx-pref-width: 20px;
+}
+
+.popupVBox {
+    -fx-font-family: "Digital-7", monospace; /* Digital font family */
+    -fx-padding: 10px; /* Padding inside the popup */
+}
+
+.popupTextField {
+    -fx-background-color: #333333; /* Dark background color */
+    -fx-border-color: #000000; /* Black border */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-text-fill: #00FF00; /* Green text color */
+    -fx-font-family: "Digital-7", monospace; /* Digital font family */
+    -fx-font-size: 10px; /* Font size */
+    -fx-padding: 2px; /* Padding inside the text field */
+    -fx-max-width: 150px;
+}
+
+#popupComboBox {
+    -fx-text-fill: #00FF00;
+    -fx-border-style: none;
+}
